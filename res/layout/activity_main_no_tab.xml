@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout 
+        android:id="@+id/menu_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+  
+	    <LinearLayout 
+	        android:id="@+id/grid"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minHeight="200dp"
+	        android:layout_centerHorizontal="true"
+	         android:orientation="vertical"
+	        >
+	          <LinearLayout 
+	        android:id="@+id/ll_up"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         android:orientation="horizontal"
+	        >
+	           	<Button
+   	            android:id="@+id/btn_hitory"
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="wrap_content"
+   	            android:layout_gravity="center"
+	            android:layout_marginTop="10dp"
+	            android:minHeight="56dp"
+   	            android:minWidth="165dp"
+	            android:onClick="openHistoryList"
+	            android:background="@drawable/button"
+	            android:textStyle="bold"
+	            android:textSize="22sp"
+	            android:text="@string/str_history" />
+	           	        <Button
+   	            android:id="@+id/btn_kehuan"
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="wrap_content"
+   	            android:layout_gravity="center"
+	            android:layout_marginTop="10dp"
+	            android:minHeight="56dp"
+   	            android:minWidth="165dp"
+	            android:onClick="openKehuanList"
+	            android:background="@drawable/button"
+	            android:textStyle="bold"
+	            android:textSize="22sp"
+	            android:text="@string/str_kehuan" />
+	           	        </LinearLayout>
+	           	          <LinearLayout 
+	        android:id="@+id/ll_down"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         android:orientation="horizontal"
+	        >
+	           	        <Button
+   	            android:id="@+id/btn_xuanhuan"
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="wrap_content"
+   	            android:layout_gravity="center"
+	            android:layout_marginTop="10dp"
+	            android:minHeight="56dp"
+   	            android:minWidth="165dp"
+	            android:onClick="openXuanhuanList"
+	            android:background="@drawable/button"
+	            android:textStyle="bold"
+	            android:textSize="22sp"
+	            android:text="@string/str_xuanhuan" />
+	           	        <Button
+   	            android:id="@+id/btn_qita"
+   	            android:layout_width="wrap_content"
+   	            android:layout_height="wrap_content"
+   	            android:layout_gravity="center"
+	            android:layout_marginTop="10dp"
+	            android:minHeight="56dp"
+   	            android:minWidth="165dp"
+	            android:onClick="openQitaList"
+	            android:background="@drawable/button"
+	            android:textStyle="bold"
+	            android:textSize="22sp"
+	            android:text="@string/str_qita" />
+	         </LinearLayout>
+	           <LinearLayout 
+	        android:id="@+id/ll_down"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         android:orientation="horizontal"
+	        >
+	           	  <Button
+	            android:id="@+id/button1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+   	            android:layout_gravity="center"
+	            android:layout_marginTop="10dp"
+	            android:minHeight="56dp"
+	            android:minWidth="165dp"
+	            android:onClick="openNovelListNoTab"
+	            android:background="@drawable/button"
+	            android:textStyle="bold"
+	            android:textSize="22sp"
+	            android:text="@string/light_novels" />
+	        
+	        <Button
+	            android:id="@+id/button3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+   	            android:layout_gravity="center"
+   	            android:layout_marginTop="10dp"
+	            android:minHeight="56dp"
+	            android:minWidth="165dp"
+	            android:onClick="openOriginalsList"
+	            android:background="@drawable/button"
+	            android:textStyle="bold"
+	            android:textSize="22sp"
+	            android:text="@string/originals" />
+	         </LinearLayout>
+	               
+	    </LinearLayout>
+	  
+	    
+    </RelativeLayout>
+</LinearLayout>

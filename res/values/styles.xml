@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="main_tab">
+	  	<item name="android:ellipsize">marquee</item> 
+ 	 	<item name="android:layout_width">fill_parent</item> 
+ 	 	<item name="android:layout_height">50dp</item> 
+ 	 	<item name="android:button">@null</item> 
+ 	 	<item name="android:singleLine">true</item> 
+  	</style>
+     <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+        <style name="list_view_divider">
+        <item name="android:divider">@color/listview_divider</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+        <style name="topbar_right_btn">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">20.0dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+        <style name="AppTheme" parent="Theme.Sherlock.Light.DarkActionBar" >
+        <item name="android:divider">@drawable/divider</item>
+   		<item name="android:dividerHeight">1dp</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.Sherlock" >
+        <item name="android:background">#222222</item>
+        <item name="android:buttonStyle">@style/DarkButton</item>
+        <item name="android:divider">@drawable/divider</item>
+   		<item name="android:dividerHeight">1dp</item>
+    </style>
+    <style name="DarkButton" parent="@android:style/Widget.Button">
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:background">#222222</item>
+	</style>
+</resources>

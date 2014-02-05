@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff888888" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView_points" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:text="您现在经验值为0，请获取经验大于0则打开语音功能。" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/button_show_offers" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="点击获取经验>=1就能使用语音功能" android:layout_below="@id/textView_points" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:mobile="http://mobile.blogjava.net"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_listview" 
+    > 
+  	<ListView 
+        android:id="@+id/lvBookshelf"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:cacheColorHint="#000000"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true"
+            android:scrollingCache="false"
+        />
+     
+	    <RelativeLayout 
+	        android:id="@+id/content" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:visibility="invisible"
+	        > 
+	      <include android:id="@+id/about_header" android:layout_alignParentTop="true" layout="@layout/profile_header" />
+			<com.dotcool.bll.FileBrowser
+				android:id="@+id/filebrowser" 
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" 
+				android:layout_below="@id/about_header"
+				android:background="@color/black"
+				mobile:folderImage="@drawable/cartoon_folder"
+				mobile:extName1="jpg" 
+				mobile:otherFileImage="@drawable/other"/>
+	    </RelativeLayout> 
+  
+</RelativeLayout> 

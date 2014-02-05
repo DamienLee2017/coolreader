@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	>
+    
+    <TextView 
+        android:id="@+id/tvUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userName"
+        />
+    <EditText 
+        android:id="@+id/etUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        />
+    <TextView 
+        android:id="@+id/tvUserNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userNum"
+        />
+    <EditText 
+        android:id="@+id/etUserNum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        />
+    <TextView 
+        android:id="@+id/tvUserFeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userFeedback"
+        />
+    <EditText 
+        android:id="@+id/etUserFeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:gravity="top"
+        android:textSize="15dip"
+        />
+
+</LinearLayout>

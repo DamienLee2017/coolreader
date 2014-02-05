@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="textView_points">false</item>
+    <item type="id" name="button_show_offers">false</item>
+    <item type="id" name="helloword">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="stop">false</item>
+    <item type="id" name="settingtts">false</item>
+    <item type="id" name="backButton">false</item>
+    <item type="id" name="settts_layout">false</item>
+    <item type="id" name="select_man">false</item>
+    <item type="id" name="select_girl">false</item>
+    <item type="id" name="tts_set_list">false</item>
+    <item type="id" name="title_tts">false</item>
+    <item type="id" name="time_seekBar">false</item>
+    <item type="id" name="btn_reset">false</item>
+    <item type="id" name="menu_settings">false</item>
+</resources>

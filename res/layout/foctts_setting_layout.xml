@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/foctts_titlebar_big" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:textSize="12.0dip" android:id="@id/backButton" android:layout_width="50.0dip" android:layout_height="33.0dip" android:layout_marginLeft="5.0dip" android:text="返回" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TTS设置" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/settts_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textSize="14.0dip" android:gravity="left" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="男女选择:" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#00000000" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="9.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="vertical" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:background="@drawable/foctts_voice_man" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <Button android:id="@id/select_man" android:background="@drawable/foctts_sex_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:background="@drawable/foctts_voice_girl" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <Button android:id="@id/select_girl" android:background="@drawable/foctts_sex_unselected" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <ListView android:id="@id/tts_set_list" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="#00000000" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

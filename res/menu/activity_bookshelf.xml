@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_share"
+        android:title="@string/share"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+ <item android:id="@+id/menu_feedback"
+        android:title="@string/feedback"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+  <item android:id="@+id/menu_about"
+        android:title="@string/about"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+   <item android:id="@+id/menu_exit"
+        android:title="@string/exit"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+</menu>
